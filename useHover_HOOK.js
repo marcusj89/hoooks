@@ -1,8 +1,6 @@
 
 /*
-
-useHover.js 
-
+------------------------------------------------------ useHover.js 
 */
 
 import { useRef, useState, useEffect } from 'react';
@@ -35,21 +33,9 @@ export default function useHover() {
 }
 
 
-
-
-
-
-
 /*
-
-index.js
-
+----------------------------------------------- index.js
 */
-
-
-
-
-
 
 
 import React from 'react';
@@ -78,3 +64,5 @@ function App() {
 
 const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);
+
+
